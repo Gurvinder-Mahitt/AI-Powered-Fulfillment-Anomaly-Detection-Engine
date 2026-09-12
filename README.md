@@ -146,34 +146,6 @@ Open `http://localhost:8501` in your browser. The sample analysis loads immediat
 
 ---
 
-## Deployment (Streamlit Community Cloud — Free)
-
-This is the easiest way to put your app online:
-
-1. **Push to GitHub:**
-   ```bash
-   git init
-   git add .
-   git commit -m "Initial commit"
-   git remote add origin https://github.com/YOUR_USERNAME/ai-assisted-eda.git
-   git branch -M main
-   git push -u origin main
-   ```
-
-2. **Deploy:**
-   - Go to [share.streamlit.io](https://share.streamlit.io)
-   - Click **New App** → select your GitHub repo
-   - Set main file: `app.py`
-   - Under **Advanced Settings → Secrets**, paste:
-     ```toml
-     OPENROUTER_API_KEY = "your-key-here"
-     ```
-   - Click **Deploy** 🚀
-
-Your app will be live at `https://your-app-name.streamlit.app` in ~2 minutes.
-
----
-
 ## Sample Dataset
 
 The app includes the [Brazilian E-Commerce (OLIST) dataset](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce) — a real-world dataset of 96,460 orders from a Brazilian online marketplace (2016–2018).
